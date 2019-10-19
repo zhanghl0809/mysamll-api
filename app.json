@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/zhl/zhl",
+    "pages/wz/wz",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/tq/tq",
+    "pages/map/map"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "pages/wz/wz"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1296db",
+    "navigationBarTitleText": "WeChatCS",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/iconfont/sy.png",
+        "iconPath": "images/iconfont/sy.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+  
+      {
+        "selectedIconPath": "images/iconfont/cs.png",
+        "iconPath": "images/iconfont/cs.png",
+        "pagePath": "pages/zhl/zhl",
+        "text": "测试"
+      },
+      {
+        "selectedIconPath": "images/iconfont/tq.png",
+        "iconPath": "images/iconfont/tq.png",
+        "pagePath": "pages/tq/tq",
+        "text": "天气"
+      },
+      {
+        "selectedIconPath": "images/iconfont/wz.png",
+        "iconPath": "images/iconfont/wz.png",
+        "pagePath": "pages/wz/wz",
+        "text": "位置"
+      },
+      {
+        "selectedIconPath": "images/iconfont/rz.png",
+        "iconPath": "images/iconfont/rz.png",
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

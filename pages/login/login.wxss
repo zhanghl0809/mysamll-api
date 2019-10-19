@@ -1,0 +1,39 @@
+/* pages/login/login.wxss */
+
+.section-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.logo-image {
+  /* 圆角 */
+  border-radius: 200rpx;
+  width: 250rpx;
+  height: 250rpx;
+}
+
+.logo-view {
+  width: 300rpx;
+  height: 300rpx;
+  /* 圆角 */
+  border-radius: 50rpx;
+  border: 1rpx solid #bbb;
+  /* 边框阴影 */
+  box-shadow: 2rpx 2rpx 5rpx #bbb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.pinput{
+   width: 90%;
+   /* 圆角 */
+  border-radius: 50rpx;
+  border: 1rpx solid #bbb;
+}
+
+view {
+ 
+}

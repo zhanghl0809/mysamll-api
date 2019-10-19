@@ -1,0 +1,44 @@
+/* pages/txl/txl.wxss */
+/*------- justify-content: 是在横向上做改变 -------*/
+
+/* flex-start：主轴起点对齐(默认值) */
+/* flex-end：主轴结束点对齐 */
+/* center：在主轴中居中对齐 */
+.section-row {
+display: flex;
+flex-direction: row;
+/* 元素之间的距离相等，两端的元素距离容器的距离和其它元素之间的距离相同 */
+justify-content: space-around;
+}
+.section-row-reverse {
+display: flex;
+flex-direction: row-reverse;
+/* 两端对齐，两端的子元素靠向两端的容器，其他子元素的间隔相等 */
+justify-content: space-between;
+}
+/*---------- align-items: 是在纵向上做改变----------- */
+.section-column {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.section-column-reverse {
+display: flex;
+flex-direction: column-reverse;
+justify-content: flex-start;
+}
+.bg_red {
+background: lightcoral;
+}
+
+.bg_blue {
+background: lightblue;
+}
+.bg_green {
+background: greenyellow;
+}
+.shape {
+width: 100px;
+height: 100px;
+}

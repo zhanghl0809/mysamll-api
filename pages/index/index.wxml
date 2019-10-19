@@ -1,0 +1,114 @@
+<!--index.wxml-->
+
+
+<view class='section-column'>
+  <!-- 从上到下的垂直方向为主轴 -->
+  <view class='bg_1'>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}" wx:key="unique">
+        <swiper-item>
+          <image bindtap='imgPost' src="{{item}}" class="slide-image lb-image" />
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+  <view class='bg_2 '>
+    <view class='yuanjiao'>
+      <view>
+        <image src="{{userImg}}" class='dl-image' bindtap='map'></image>
+      </view>
+      <view>
+        <button bindtap='login' class="weui-btn btn-z">去登录</button>
+      </view>
+    </view>
+  </view>
+
+  <view class='bg_3' bindtap='lpClick'>
+    <view>
+      <image src="{{lpImg}}" class='lp-image'></image>
+    </view>
+    <view>普通礼品</view>
+  </view>
+  <view class='bg_4'>
+
+    <view class='he' bindtap='lpMassage'>
+      <view class='nhe-1'>
+        <image src="{{heImg}}" class='nhe-1-image'></image>
+      </view>
+      <view class='nhe-2'>
+        <view class='nhe-2-1' style='font-size: 25rpx'>小礼包</view>
+        <view class='nhe-2-1' style='font-size: 20rpx;'>新华书店</view>
+        <view class='nhe-2-1' style='font-size: 22rpx;color:red'>￥50</view>
+      </view>
+    </view>
+
+     <view class='he'>
+      <view class='nhe-1'>
+        <image src="{{heImg}}" class='nhe-1-image'></image>
+      </view>
+      <view class='nhe-2'>
+        <view class='nhe-2-1' style='font-size: 25rpx'>小礼包</view>
+        <view class='nhe-2-1' style='font-size: 20rpx;'>新华书店</view>
+        <view class='nhe-2-1' style='font-size: 22rpx;color:red'>￥50</view>
+      </view>
+    </view>
+
+     <view class='he'>
+      <view class='nhe-1'>
+        <image src="{{heImg}}" class='nhe-1-image'></image>
+      </view>
+      <view class='nhe-2'>
+        <view class='nhe-2-1' style='font-size: 25rpx'>小礼包</view>
+        <view class='nhe-2-1' style='font-size: 20rpx;'>新华书店</view>
+        <view class='nhe-2-1' style='font-size: 22rpx;color:red'>￥50</view>
+      </view>
+    </view>
+
+     <view class='he'>
+      <view class='nhe-1'>
+        <image src="{{heImg}}" class='nhe-1-image'></image>
+      </view>
+      <view class='nhe-2'>
+        <view class='nhe-2-1' style='font-size: 25rpx'>小礼包</view>
+        <view class='nhe-2-1' style='font-size: 20rpx;'>新华书店</view>
+        <view class='nhe-2-1' style='font-size: 22rpx;color:red'>￥50</view>
+      </view>
+    </view>
+
+     <view class='he'>
+      <view class='nhe-1'>
+        <image src="{{heImg}}" class='nhe-1-image'></image>
+      </view>
+      <view class='nhe-2'>
+        <view class='nhe-2-1' style='font-size: 25rpx'>小礼包</view>
+        <view class='nhe-2-1' style='font-size: 20rpx;'>新华书店</view>
+        <view class='nhe-2-1' style='font-size: 22rpx;color:red'>￥50</view>
+      </view>
+    </view>
+
+     <view class='he'>
+      <view class='nhe-1'>
+        <image src="{{heImg}}" class='nhe-1-image'></image>
+      </view>
+      <view class='nhe-2'>
+        <view class='nhe-2-1' style='font-size: 25rpx'>小礼包</view>
+        <view class='nhe-2-1' style='font-size: 20rpx;'>新华书店</view>
+        <view class='nhe-2-1' style='font-size: 22rpx;color:red'>￥50</view>
+      </view>
+    </view>
+
+     <view class='he'>
+      <view class='nhe-1'>
+        <image src="{{heImg}}" class='nhe-1-image'></image>
+      </view>
+      <view class='nhe-2'>
+        <view class='nhe-2-1' style='font-size: 25rpx'>小礼包</view>
+        <view class='nhe-2-1' style='font-size: 20rpx;'>新华书店</view>
+        <view class='nhe-2-1' style='font-size: 22rpx;color:red'>￥50</view>
+      </view>
+    </view>
+
+
+  </view>
+</view>

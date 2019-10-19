@@ -1,0 +1,130 @@
+/**index.wxss**/
+
+/*---------- align-items: 是在纵向上做改变----------- */
+
+.section-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bg_1 {
+  background: #fcfcfb;
+  width: 100%;
+  height: 300rpx;
+}
+
+.bg_2 {
+  background: #fcfcfb;
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.yuanjiao {
+  display: flex;
+  align-items: center;
+  border: 1rpx solid #ffffff00;
+	  /* 圆角 */
+	  border-radius: 200rpx;
+  width: 90%;
+  height: 200rpx;
+  /* 上边距20 下20*/
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  /* 边框阴影 */
+  box-shadow: 4rpx 4rpx 10rpx #bbb;
+}
+
+.btn-z {
+  /* 圆角 */
+  border-radius: 200rpx;
+  height: 100rpx;
+  width: 200rpx;
+  border: 1rpx solid #317ef3;
+  margin-left: 300rpx;
+  margin-right: 20rpx;
+}
+
+.lb-image {
+  width: 100%;
+  height: 100%;
+}
+
+.dl-image {
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 40rpx;
+  /* 圆角 */
+  border-radius: 200rpx;
+  border: 1rpx solid #317ef3;
+}
+
+.lp-image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 10rpx;
+}
+
+.bg_3 {
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+
+.bg_4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.he {
+  width: 300rpx;
+  height: 300rpx;
+  /* 圆角 */
+  border-radius: 20rpx;
+  border: 1rpx solid hsl(212, 12%, 79%);
+  margin-top: 10rpx;
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+  margin-bottom: 10rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nhe-1 {
+  width: 100%;
+  height: 60%;
+  /* 圆角 */
+  border-radius: 20rpx;
+ 
+}
+
+.nhe-2 {
+  width: 100%;
+  height: 40%;
+  /* 圆角 */
+  border-radius: 20rpx;
+ 
+}
+
+.nhe-1-image {
+  width: 100%;
+  height: 100%;
+   /*多边 圆角 */
+  border-top-left-radius:20rpx;
+  border-top-right-radius:20rpx;
+}
+.nhe-2-1{
+   height: 33%;
+}
